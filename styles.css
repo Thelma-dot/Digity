@@ -17,6 +17,256 @@
   }
 }
 
+/* Trusted By section - slide from bottom to top on page load */
+.rt-review-wrapper-2 {
+  animation: slide-bottom-to-top 1s ease-out forwards !important;
+  -webkit-animation: slide-bottom-to-top 1s ease-out forwards !important;
+  -moz-animation: slide-bottom-to-top 1s ease-out forwards !important;
+  animation-delay: 0s !important;
+  -webkit-animation-delay: 0s !important;
+  -moz-animation-delay: 0s !important;
+}
+
+@keyframes slide-bottom-to-top {
+  from {
+    transform: translate3d(0px, 100px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 0;
+  }
+  to {
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes slide-bottom-to-top {
+  from {
+    -webkit-transform: translate3d(0px, 100px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes slide-bottom-to-top {
+  from {
+    -moz-transform: translate3d(0px, 100px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 0;
+  }
+  to {
+    -moz-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 1;
+  }
+}
+
+/* About page hero image - slide from bottom to top */
+.brix---section-hero-v4-2 [data-w-id="6db69785-4200-ce08-9b1c-b8678058c050"] {
+  animation: slide-bottom-to-top 1s ease-out forwards !important;
+  -webkit-animation: slide-bottom-to-top 1s ease-out forwards !important;
+  -moz-animation: slide-bottom-to-top 1s ease-out forwards !important;
+  animation-delay: 0.3s !important;
+  -webkit-animation-delay: 0.3s !important;
+  -moz-animation-delay: 0.3s !important;
+  animation-fill-mode: both !important;
+  -webkit-animation-fill-mode: both !important;
+  -moz-animation-fill-mode: both !important;
+  will-change: transform, opacity !important;
+}
+
+/* Flip-in animation keyframes */
+@keyframes flip-in {
+  from {
+    transform: perspective(1000px) rotateY(-90deg) scale3d(0.8, 0.8, 0.8);
+    opacity: 0;
+  }
+  to {
+    transform: perspective(1000px) rotateY(0deg) scale3d(1, 1, 1);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes flip-in {
+  from {
+    -webkit-transform: perspective(1000px) rotateY(-90deg) scale3d(0.8, 0.8, 0.8);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: perspective(1000px) rotateY(0deg) scale3d(1, 1, 1);
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes flip-in {
+  from {
+    -moz-transform: perspective(1000px) rotateY(-90deg) scale3d(0.8, 0.8, 0.8);
+    opacity: 0;
+  }
+  to {
+    -moz-transform: perspective(1000px) rotateY(0deg) scale3d(1, 1, 1);
+    opacity: 1;
+  }
+}
+
+/* About us text - flip-in transition */
+.brix---section-hero-v4-2 .hero-title,
+.brix---section-hero-v4-2 h1.hero-title,
+.brix---section-hero-v4-2 [data-w-id="403652b8-18c9-d980-3293-446a12dd0532"] {
+  animation: flip-in 0.8s ease-out forwards !important;
+  -webkit-animation: flip-in 0.8s ease-out forwards !important;
+  -moz-animation: flip-in 0.8s ease-out forwards !important;
+  animation-delay: 0.1s !important;
+  -webkit-animation-delay: 0.1s !important;
+  -moz-animation-delay: 0.1s !important;
+  animation-fill-mode: both !important;
+  -webkit-animation-fill-mode: both !important;
+  -moz-animation-fill-mode: both !important;
+  transform-style: preserve-3d !important;
+  -webkit-transform-style: preserve-3d !important;
+  will-change: transform, opacity !important;
+}
+
+/* Slide from top to bottom animation */
+@keyframes slide-top-to-bottom {
+  from {
+    transform: translate3d(0px, -100px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 0;
+  }
+  to {
+    transform: translate3d(0px, -40%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes slide-top-to-bottom {
+  from {
+    -webkit-transform: translate3d(0px, -100px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translate3d(0px, -40%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes slide-top-to-bottom {
+  from {
+    -moz-transform: translate3d(0px, -100px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 0;
+  }
+  to {
+    -moz-transform: translate3d(0px, -40%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 1;
+  }
+}
+
+/* Slide from bottom to top animation */
+@keyframes slide-bottom-to-top-2 {
+  from {
+    transform: translate3d(0px, 100px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 0;
+  }
+  to {
+    transform: translate3d(0px, 40%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes slide-bottom-to-top-2 {
+  from {
+    -webkit-transform: translate3d(0px, 100px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translate3d(0px, 40%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes slide-bottom-to-top-2 {
+  from {
+    -moz-transform: translate3d(0px, 100px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 0;
+  }
+  to {
+    -moz-transform: translate3d(0px, 40%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 1;
+  }
+}
+
+/* About page story section - left image (top to bottom) */
+.about-section [data-w-id="92b61be7-a17b-3a71-431e-205590d95be7"] {
+  animation: slide-top-to-bottom 1s ease-out forwards !important;
+  -webkit-animation: slide-top-to-bottom 1s ease-out forwards !important;
+  -moz-animation: slide-top-to-bottom 1s ease-out forwards !important;
+  animation-delay: 0.5s !important;
+  -webkit-animation-delay: 0.5s !important;
+  -moz-animation-delay: 0.5s !important;
+  animation-fill-mode: both !important;
+  -webkit-animation-fill-mode: both !important;
+  -moz-animation-fill-mode: both !important;
+  will-change: transform, opacity !important;
+}
+
+/* About page story section - right image (bottom to top) */
+.about-section [data-w-id="92b61be7-a17b-3a71-431e-205590d95bea"] {
+  animation: slide-bottom-to-top-2 1s ease-out forwards !important;
+  -webkit-animation: slide-bottom-to-top-2 1s ease-out forwards !important;
+  -moz-animation: slide-bottom-to-top-2 1s ease-out forwards !important;
+  animation-delay: 0.7s !important;
+  -webkit-animation-delay: 0.7s !important;
+  -moz-animation-delay: 0.7s !important;
+  animation-fill-mode: both !important;
+  -webkit-animation-fill-mode: both !important;
+  -moz-animation-fill-mode: both !important;
+  will-change: transform, opacity !important;
+}
+
+/* About page "Beyond Branding" text section - slide from bottom to top */
+.rt-component-section-10 [data-w-id="61b0a77f-a682-fc5e-d89a-a53da1db0d34"],
+.rt-home-two-about-text-wrapper .paragraph-7 {
+  animation: slide-bottom-to-top 1s ease-out forwards !important;
+  -webkit-animation: slide-bottom-to-top 1s ease-out forwards !important;
+  -moz-animation: slide-bottom-to-top 1s ease-out forwards !important;
+  animation-delay: 0.9s !important;
+  -webkit-animation-delay: 0.9s !important;
+  -moz-animation-delay: 0.9s !important;
+  animation-fill-mode: both !important;
+  -webkit-animation-fill-mode: both !important;
+  -moz-animation-fill-mode: both !important;
+  will-change: transform, opacity !important;
+}
+
+/* About page "Beyond Branding" heading - slide from bottom to top */
+.rt-component-section-10 [data-w-id="61b0a77f-a682-fc5e-d89a-a53da1db0d32"],
+.rt-home-two-about-text-wrapper .rt-sub-heading-two {
+  animation: slide-bottom-to-top 1s ease-out forwards !important;
+  -webkit-animation: slide-bottom-to-top 1s ease-out forwards !important;
+  -moz-animation: slide-bottom-to-top 1s ease-out forwards !important;
+  animation-delay: 0.8s !important;
+  -webkit-animation-delay: 0.8s !important;
+  -moz-animation-delay: 0.8s !important;
+  animation-fill-mode: both !important;
+  -webkit-animation-fill-mode: both !important;
+  -moz-animation-fill-mode: both !important;
+  will-change: transform, opacity !important;
+}
+
+/* About page text block - slide from bottom to top */
+.rt-home-two-about-text-wrapper .paragraph-7,
+.rt-home-two-about-text-wrapper [data-w-id="61b0a77f-a682-fc5e-d89a-a53da1db0d34"] {
+  animation: slide-bottom-to-top 1s ease-out forwards !important;
+  -webkit-animation: slide-bottom-to-top 1s ease-out forwards !important;
+  -moz-animation: slide-bottom-to-top 1s ease-out forwards !important;
+  animation-delay: 0.6s !important;
+  -webkit-animation-delay: 0.6s !important;
+  -moz-animation-delay: 0.6s !important;
+  animation-fill-mode: both !important;
+  -webkit-animation-fill-mode: both !important;
+  -moz-animation-fill-mode: both !important;
+  will-change: transform, opacity !important;
+}
+
 /* Logo carousel styles */
 .f-logo-carousel {
   position: absolute;
@@ -149,3 +399,1056 @@
 .faq-icon svg g[transform*="matrix(0,1,-1,0"] path:first-child {
   display: none !important;
 }
+
+/* FAQ dropdown styles */
+.dropdown-toggle {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.dropdown-answer {
+  transition: opacity 0.3s ease, transform 0.3s ease, height 0.3s ease;
+  overflow: hidden;
+}
+
+/* FAQ flex container - center icon vertically */
+.faq-flex {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  width: 100% !important;
+}
+
+/* FAQ icon - position in right middle corner and maintain size */
+.faq-icon {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-shrink: 0 !important;
+  width: 32px !important;
+  height: 32px !important;
+  min-width: 32px !important;
+  min-height: 32px !important;
+}
+
+.faq-icon svg {
+  width: 32px !important;
+  height: 32px !important;
+  min-width: 32px !important;
+  min-height: 32px !important;
+  flex-shrink: 0 !important;
+}
+
+/* FAQ plus sign - white in dark mode */
+html.dark-mode .faq-icon svg path[stroke] {
+  stroke: #ffffff !important;
+  stroke-opacity: 1 !important;
+}
+
+html.dark-mode .faq-icon svg {
+  filter: none !important;
+  isolation: isolate;
+}
+
+html.dark-mode .faq-icon {
+  filter: none !important;
+  isolation: isolate;
+}
+
+/* CTA Section - scroll-triggered animations from bottom to top */
+.rt-service-two-cta-2 .rt-text-white-6.rt-text-uppercase-2.rt-text-small-2,
+.rt-service-two-cta-2 .rt-text-white-6.rt-margin-bottom-twenty-4,
+.rt-service-two-cta-2 .button-new,
+.rt-service-two-cta-2 .rt-review-wrapper-2 {
+  opacity: 0;
+  transform: translate3d(0px, 100px, 0px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.rt-service-two-cta-2 .rt-text-white-6.rt-text-uppercase-2.rt-text-small-2.animate-in,
+.rt-service-two-cta-2 .rt-text-white-6.rt-margin-bottom-twenty-4.animate-in,
+.rt-service-two-cta-2 .button-new.animate-in,
+.rt-service-two-cta-2 .rt-review-wrapper-2.animate-in {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
+
+.rt-service-two-cta-2 .rt-text-white-6.rt-margin-bottom-twenty-4 {
+  transition-delay: 0.15s;
+}
+
+.rt-service-two-cta-2 .button-new.mb02._22 {
+  transition-delay: 0.25s;
+}
+
+.rt-service-two-cta-2 .button-new._45._32 {
+  transition-delay: 0.35s;
+}
+
+.rt-service-two-cta-2 .rt-review-wrapper-2 {
+  transition-delay: 0.45s;
+}
+
+/* Metrics section - flip from left to right animation */
+.metrics-wrapper {
+  perspective: 1000px;
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+}
+
+.metrics-block {
+  transform-style: preserve-3d !important;
+  -webkit-transform-style: preserve-3d !important;
+  -moz-transform-style: preserve-3d !important;
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(-90deg) rotateZ(0deg) skew(0deg, 0deg);
+  opacity: 0;
+  transition: none;
+}
+
+.metrics-block.animate-flip {
+  animation: flip-left-to-right 0.8s ease-out forwards !important;
+  -webkit-animation: flip-left-to-right 0.8s ease-out forwards !important;
+  -moz-animation: flip-left-to-right 0.8s ease-out forwards !important;
+}
+
+@keyframes flip-left-to-right {
+  from {
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(-90deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 0;
+  }
+  to {
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes flip-left-to-right {
+  from {
+    -webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(-90deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes flip-left-to-right {
+  from {
+    -moz-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(-90deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 0;
+  }
+  to {
+    -moz-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 1;
+  }
+}
+
+/* Staggered animation delays for each metrics block */
+.metrics-block:nth-child(1) {
+  animation-delay: 0.1s !important;
+  -webkit-animation-delay: 0.1s !important;
+  -moz-animation-delay: 0.1s !important;
+}
+
+.metrics-block:nth-child(2) {
+  animation-delay: 0.2s !important;
+  -webkit-animation-delay: 0.2s !important;
+  -moz-animation-delay: 0.2s !important;
+}
+
+.metrics-block:nth-child(3) {
+  animation-delay: 0.3s !important;
+  -webkit-animation-delay: 0.3s !important;
+  -moz-animation-delay: 0.3s !important;
+}
+
+.metrics-block:nth-child(4) {
+  animation-delay: 0.4s !important;
+  -webkit-animation-delay: 0.4s !important;
+  -moz-animation-delay: 0.4s !important;
+}
+
+/* Circular button rotation - continuous slow rotation */
+.spinner-wrapper-2 {
+  transition: transform 0.3s ease;
+  transform-origin: center;
+}
+
+.spinner-wrapper-2 .spinner-image {
+  animation: rotate-circle 15s linear infinite !important;
+  -webkit-animation: rotate-circle 15s linear infinite !important;
+  -moz-animation: rotate-circle 15s linear infinite !important;
+}
+
+@keyframes rotate-circle {
+  from {
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  }
+  to {
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(360deg) skew(0deg, 0deg);
+  }
+}
+
+@-webkit-keyframes rotate-circle {
+  from {
+    -webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  }
+  to {
+    -webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(360deg) skew(0deg, 0deg);
+  }
+}
+
+@-moz-keyframes rotate-circle {
+  from {
+    -moz-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  }
+  to {
+    -moz-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(360deg) skew(0deg, 0deg);
+  }
+}
+
+/* Hero heading slide animation from right to left on page load - very slow motion */
+.hero-heading-flex {
+  animation: slide-from-right 30s linear forwards !important;
+  -webkit-animation: slide-from-right 30s linear forwards !important;
+  -moz-animation: slide-from-right 30s linear forwards !important;
+  animation-delay: 0s !important;
+  -webkit-animation-delay: 0s !important;
+  -moz-animation-delay: 0s !important;
+  animation-fill-mode: both !important;
+  -webkit-animation-fill-mode: both !important;
+  -moz-animation-fill-mode: both !important;
+  -webkit-text-size-adjust: 100%;
+  color: #050505;
+  font-family: Inter, sans-serif;
+  font-size: 1vw;
+  line-height: 1.4vw;
+  box-sizing: border-box;
+  z-index: 10;
+  text-align: left;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 9vw;
+  max-width: 9vw;
+  min-height: 1vw;
+  max-height: 1vw;
+  position: relative;
+  left: 1.67vw;
+  overflow: hidden;
+  /* Set initial position to start from right - will be overridden by animation */
+  will-change: transform;
+}
+
+.hero-heading-text {
+  -webkit-text-size-adjust: 100%;
+  color: #050505;
+  font-family: Inter, sans-serif;
+  font-size: 1vw;
+  line-height: 1.4vw;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+@keyframes slide-from-right {
+  from {
+    transform: translate3d(100vw, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 1;
+  }
+  to {
+    transform: translate3d(-176.906px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes slide-from-right {
+  from {
+    -webkit-transform: translate3d(100vw, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: translate3d(-176.906px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes slide-from-right {
+  from {
+    -moz-transform: translate3d(100vw, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 1;
+  }
+  to {
+    -moz-transform: translate3d(-176.906px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 1;
+  }
+}
+
+/* Services section animations - text and images */
+/* Initial hidden state for text on left side (Branding, Webdesign) */
+.card-flex.reverse-on-tab .large-card .card-text-block {
+  transform: translate3d(-100px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  opacity: 0;
+  transition: none;
+}
+
+/* Animate when in view */
+.card-flex.reverse-on-tab .large-card .card-text-block.animate-in {
+  animation: slide-text-left-to-right 1s ease-out forwards !important;
+  -webkit-animation: slide-text-left-to-right 1s ease-out forwards !important;
+  -moz-animation: slide-text-left-to-right 1s ease-out forwards !important;
+  animation-delay: 0.2s !important;
+  -webkit-animation-delay: 0.2s !important;
+  -moz-animation-delay: 0.2s !important;
+}
+
+/* Initial hidden state for text on right side (Marketing, Content) */
+.card-flex:not(.reverse-on-tab) .large-card .card-text-block,
+.card-flex .features-image-wrapper + .large-card .card-text-block {
+  transform: translate3d(100px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  opacity: 0;
+  transition: none;
+}
+
+/* Animate when in view */
+.card-flex:not(.reverse-on-tab) .large-card .card-text-block.animate-in,
+.card-flex .features-image-wrapper + .large-card .card-text-block.animate-in {
+  animation: slide-text-right-to-left 1s ease-out forwards !important;
+  -webkit-animation: slide-text-right-to-left 1s ease-out forwards !important;
+  -moz-animation: slide-text-right-to-left 1s ease-out forwards !important;
+  animation-delay: 0.2s !important;
+  -webkit-animation-delay: 0.2s !important;
+  -moz-animation-delay: 0.2s !important;
+}
+
+/* Initial hidden state for images */
+.features-image-wrapper {
+  transform: translate3d(0px, -100px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  opacity: 0;
+  transition: none;
+}
+
+/* Animate when in view */
+.features-image-wrapper.animate-in {
+  animation: slide-image-top-to-bottom 1s ease-out forwards !important;
+  -webkit-animation: slide-image-top-to-bottom 1s ease-out forwards !important;
+  -moz-animation: slide-image-top-to-bottom 1s ease-out forwards !important;
+  animation-delay: 0.1s !important;
+  -webkit-animation-delay: 0.1s !important;
+  -moz-animation-delay: 0.1s !important;
+}
+
+/* Text left to right animation */
+@keyframes slide-text-left-to-right {
+  from {
+    transform: translate3d(-100px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 0;
+  }
+  to {
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes slide-text-left-to-right {
+  from {
+    -webkit-transform: translate3d(-100px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes slide-text-left-to-right {
+  from {
+    -moz-transform: translate3d(-100px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 0;
+  }
+  to {
+    -moz-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 1;
+  }
+}
+
+/* Text right to left animation */
+@keyframes slide-text-right-to-left {
+  from {
+    transform: translate3d(100px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 0;
+  }
+  to {
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes slide-text-right-to-left {
+  from {
+    -webkit-transform: translate3d(100px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes slide-text-right-to-left {
+  from {
+    -moz-transform: translate3d(100px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 0;
+  }
+  to {
+    -moz-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 1;
+  }
+}
+
+/* Image top to bottom animation */
+@keyframes slide-image-top-to-bottom {
+  from {
+    transform: translate3d(0px, -100px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 0;
+  }
+  to {
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes slide-image-top-to-bottom {
+  from {
+    -webkit-transform: translate3d(0px, -100px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes slide-image-top-to-bottom {
+  from {
+    -moz-transform: translate3d(0px, -100px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 0;
+  }
+  to {
+    -moz-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 1;
+  }
+}
+
+/* Dark Mode Styles */
+html.dark-mode {
+  filter: invert(1) hue-rotate(180deg);
+  transition: filter 0.3s ease;
+}
+
+/* Keep images non-inverted in dark mode */
+html.dark-mode img,
+html.dark-mode picture,
+html.dark-mode video,
+html.dark-mode iframe,
+html.dark-mode canvas,
+html.dark-mode svg {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+/* Keep images non-inverted on hover */
+html.dark-mode img:hover,
+html.dark-mode picture:hover,
+html.dark-mode video:hover {
+  filter: invert(1) hue-rotate(180deg) !important;
+}
+
+/* Keep "Lets scale together!" section background image non-inverted */
+html.dark-mode .rt-service-two-cta-background-2,
+html.dark-mode .rt-service-two-cta-background-2 *,
+html.dark-mode .rt-service-two-cta-background-2::before,
+html.dark-mode .rt-service-two-cta-background-2::after {
+  filter: invert(1) hue-rotate(180deg) !important;
+}
+
+/* Keep footer looking the same in dark mode as in light mode */
+/* Re-invert the entire footer section to maintain black background and white text */
+html.dark-mode .section.background-black,
+html.dark-mode .section.background-black._23,
+html.dark-mode .footer-top,
+html.dark-mode .footer-block,
+html.dark-mode .footer-right-flex,
+html.dark-mode .footer-line,
+html.dark-mode .background-black {
+  filter: invert(1) hue-rotate(180deg) !important;
+}
+
+/* Metrics section - exclude from background-black inversion and ensure white text */
+html.dark-mode .metrics-wrapper {
+  isolation: isolate;
+  filter: none !important;
+}
+
+html.dark-mode .metrics-block {
+  filter: none !important;
+}
+
+/* Metrics numbers - ensure they are white */
+html.dark-mode .metrics-text,
+html.dark-mode .metrics-text._3._55 {
+  filter: invert(1) hue-rotate(180deg) !important;
+  color: #ffffff !important;
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Metrics labels - ensure they are white */
+html.dark-mode .metrics-wrapper p,
+html.dark-mode .paragraph-3,
+html.dark-mode .paragraph-4,
+html.dark-mode .paragraph-5,
+html.dark-mode .paragraph-6 {
+  filter: invert(1) hue-rotate(180deg) !important;
+  color: #ffffff !important;
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* How We Work section - ensure it looks the same in dark mode as in light mode */
+html.dark-mode #steps,
+html.dark-mode .section-2,
+html.dark-mode .grid-wrapper,
+html.dark-mode .steps-grid,
+html.dark-mode .steps-sticky-card,
+html.dark-mode .steps-intro,
+html.dark-mode .steps-cards,
+html.dark-mode .steps-card-wrapper,
+html.dark-mode .steps-card,
+html.dark-mode .steps-content,
+html.dark-mode .subtitle-wrapper,
+html.dark-mode .subtitle,
+html.dark-mode .brix---card-testimonial-v13,
+html.dark-mode .brix---paragraph-default-8,
+html.dark-mode .brix---heading-h4-size {
+  filter: invert(1) hue-rotate(180deg) !important;
+}
+
+/* How We Work section - ensure all text is white in dark mode */
+html.dark-mode #steps *,
+html.dark-mode .section-2 *,
+html.dark-mode .steps-sticky-card *,
+html.dark-mode .steps-description *,
+html.dark-mode .subtitle-wrapper *,
+html.dark-mode .subtitle,
+html.dark-mode .heading,
+html.dark-mode .heading *,
+html.dark-mode .text-span-24,
+html.dark-mode .brix---card-testimonial-v13 *,
+html.dark-mode .brix---paragraph-default-8,
+html.dark-mode .brix---heading-h4-size,
+html.dark-mode .steps-content *,
+html.dark-mode .steps-description h3,
+html.dark-mode .steps-description p,
+html.dark-mode .body-display {
+  filter: invert(1) hue-rotate(180deg) !important;
+  color: #ffffff !important;
+}
+
+/* Ensure "Our Roadmap to Success" heading is white in dark mode */
+html.dark-mode .steps-sticky-card .heading,
+html.dark-mode .steps-sticky-card .heading *,
+html.dark-mode .steps-sticky-card h2.heading,
+html.dark-mode .steps-sticky-card h2.heading *,
+html.dark-mode .steps-sticky-card .text-span-24,
+html.dark-mode #steps .steps-sticky-card .heading,
+html.dark-mode #steps .steps-sticky-card .heading *,
+html.dark-mode #steps .steps-sticky-card h2.heading,
+html.dark-mode #steps .steps-sticky-card h2.heading *,
+html.dark-mode #steps .steps-sticky-card .text-span-24,
+html.dark-mode .section-2 .steps-sticky-card .heading,
+html.dark-mode .section-2 .steps-sticky-card .heading *,
+html.dark-mode .section-2 .steps-sticky-card h2.heading,
+html.dark-mode .section-2 .steps-sticky-card h2.heading *,
+html.dark-mode .section-2 .steps-sticky-card .text-span-24,
+html.dark-mode .steps-description .heading,
+html.dark-mode .steps-description .heading *,
+html.dark-mode .steps-description h2.heading,
+html.dark-mode .steps-description h2.heading *,
+html.dark-mode .steps-description .text-span-24,
+html.dark-mode #steps .steps-description .heading,
+html.dark-mode #steps .steps-description .heading *,
+html.dark-mode #steps .steps-description h2.heading,
+html.dark-mode #steps .steps-description h2.heading *,
+html.dark-mode #steps .steps-description .text-span-24 {
+  filter: invert(1) hue-rotate(180deg) !important;
+  color: #ffffff !important;
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Extra specific rule for heading text content */
+html.dark-mode #steps .steps-sticky-card .steps-description h2.heading,
+html.dark-mode #steps .steps-sticky-card .steps-description h2.heading * {
+  color: #ffffff !important;
+  filter: invert(1) hue-rotate(180deg) !important;
+}
+
+/* How We Work section - ensure heading container doesn't interfere */
+html.dark-mode .steps-sticky-card .steps-description {
+  filter: invert(1) hue-rotate(180deg) !important;
+}
+
+/* How We Work section images - ensure they stay non-inverted */
+html.dark-mode #steps img,
+html.dark-mode .section-2 img,
+html.dark-mode .steps-sticky-card img,
+html.dark-mode .brix---card-testimonial-v13 img,
+html.dark-mode .image-10 {
+  filter: invert(1) hue-rotate(180deg) !important;
+}
+
+/* How We Work button - orange container with white text in dark mode */
+html.dark-mode #steps .button-new._45._6,
+html.dark-mode .section-2 .button-new._45._6,
+html.dark-mode .steps-sticky-card .button-new._45._6 {
+  background-color: #ff6b35 !important;
+  filter: none !important;
+  isolation: isolate;
+}
+
+html.dark-mode #steps .button-new._45._6 *,
+html.dark-mode .section-2 .button-new._45._6 *,
+html.dark-mode .steps-sticky-card .button-new._45._6 * {
+  filter: none !important;
+}
+
+html.dark-mode #steps .button-new._45._6 .button-text-3,
+html.dark-mode .section-2 .button-new._45._6 .button-text-3,
+html.dark-mode .steps-sticky-card .button-new._45._6 .button-text-3,
+html.dark-mode #steps .button-new._45._6 .button-text-absolute,
+html.dark-mode .section-2 .button-new._45._6 .button-text-absolute,
+html.dark-mode .steps-sticky-card .button-new._45._6 .button-text-absolute {
+  color: #ffffff !important;
+}
+
+/* Footer wrapper and link wrapper - exclude from footer container inversion */
+html.dark-mode .footer-wrapper,
+html.dark-mode .footer-link-wrapper {
+  isolation: isolate;
+  filter: invert(1) hue-rotate(180deg) !important;
+}
+
+/* Footer logo wrapper - create isolation to prevent footer container from affecting it */
+html.dark-mode .footer-logo-link-wrapper {
+  isolation: isolate;
+  filter: none !important;
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  position: relative !important;
+  z-index: 10 !important;
+}
+
+/* Footer logo image - keep it white (already has filter from general image rule) */
+html.dark-mode .footer-logo-link-wrapper img,
+html.dark-mode .footer-logo {
+  filter: invert(1) hue-rotate(180deg) !important;
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Social icons wrapper - create isolation */
+html.dark-mode .socials-wrapper {
+  isolation: isolate;
+  filter: invert(1) hue-rotate(180deg) !important;
+}
+
+/* Social media icons - keep them white */
+html.dark-mode .socials-wrapper img,
+html.dark-mode .social-icon {
+  filter: invert(1) hue-rotate(180deg) !important;
+}
+
+/* Footer links - ensure white color in both light and dark mode */
+.footer-link {
+  color: #ffffff !important;
+}
+
+/* Footer links in dark mode - ensure white color */
+html.dark-mode .footer-link {
+  filter: invert(1) hue-rotate(180deg) !important;
+  color: #ffffff !important;
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Hide footer headings (LINKS and INFO) in both light and dark mode */
+.footer-wrapper h5,
+.font-white._2fe {
+  display: none !important;
+}
+
+/* Footer headings - ensure white color in both light and dark mode (for any other headings) */
+.font-white {
+  color: #ffffff !important;
+}
+
+/* Footer headings in dark mode - keep hidden */
+html.dark-mode .footer-wrapper h5,
+html.dark-mode .font-white._2fe {
+  display: none !important;
+}
+
+/* Footer headings in dark mode - ensure white color (for any other headings) */
+html.dark-mode .font-white {
+  filter: invert(1) hue-rotate(180deg) !important;
+  color: #ffffff !important;
+}
+
+/* Footer copyright - ensure white color in both light and dark mode */
+.footer-bottom p,
+.font-white._23._34f {
+  color: #ffffff !important;
+}
+
+/* Footer copyright in dark mode - ensure white color and visibility */
+html.dark-mode .footer-bottom {
+  isolation: isolate;
+  filter: none !important;
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  position: relative !important;
+  z-index: 10 !important;
+}
+
+html.dark-mode .footer-bottom p,
+html.dark-mode .font-white._23._34f {
+  filter: invert(1) hue-rotate(180deg) !important;
+  color: #ffffff !important;
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Ensure footer logo and copyright text are visible */
+html.dark-mode .footer-logo-link-wrapper {
+  filter: none !important;
+}
+
+html.dark-mode .footer-logo-link-wrapper img {
+  filter: invert(1) hue-rotate(180deg) !important;
+}
+
+html.dark-mode .footer-bottom {
+  filter: none !important;
+}
+
+html.dark-mode .footer-bottom p {
+  filter: invert(1) hue-rotate(180deg) !important;
+  color: #ffffff !important;
+}
+
+/* Ensure all footer text elements are visible in dark mode */
+/* Exclude logo and copyright as they're handled separately */
+html.dark-mode .section.background-black *:not(.footer-logo-link-wrapper):not(.footer-logo-link-wrapper *):not(.footer-bottom):not(.footer-bottom *),
+html.dark-mode .section.background-black._23 *:not(.footer-logo-link-wrapper):not(.footer-logo-link-wrapper *):not(.footer-bottom):not(.footer-bottom *),
+html.dark-mode .footer-top *:not(.footer-logo-link-wrapper):not(.footer-logo-link-wrapper *):not(.footer-bottom):not(.footer-bottom *),
+html.dark-mode .footer-block *:not(.footer-logo-link-wrapper):not(.footer-logo-link-wrapper *):not(.footer-bottom):not(.footer-bottom *),
+html.dark-mode .footer-right-flex *:not(.footer-logo-link-wrapper):not(.footer-logo-link-wrapper *):not(.footer-bottom):not(.footer-bottom *) {
+  filter: invert(1) hue-rotate(180deg) !important;
+  color: #ffffff !important;
+}
+
+/* Dark mode toggle button styles - improved structure */
+.dark-mode-toggle {
+  background: transparent;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  min-width: 36px;
+  min-height: 36px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8px;
+  margin-right: 0;
+  transition: all 0.3s ease;
+  position: relative;
+  padding: 0;
+  font-size: 18px;
+  flex-shrink: 0;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+.dark-mode-toggle::before {
+  content: '🌙';
+  font-size: 18px;
+  line-height: 1;
+  transition: transform 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+html.dark-mode .dark-mode-toggle::before {
+  content: '☀️';
+}
+
+.dark-mode-toggle:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+/* Adjust nav container and Book a Free Call button to accommodate dark mode button */
+.nav-container-2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: nowrap;
+}
+
+.button-new._12345678 {
+  margin-left: 0;
+  flex-shrink: 0;
+  transform: scale(0.9);
+  font-size: 0.9em;
+  padding: 0.85em 1.5em;
+}
+
+/* Career page - hide images initially and show on hover with top-to-bottom transition */
+.rt-awards-hover-image {
+  opacity: 0;
+  transform: translateY(-100%) rotate(-5deg);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  overflow: hidden;
+}
+
+.rt-awards-block:hover .rt-awards-hover-image {
+  opacity: 1;
+  transform: translateY(0) rotate(0deg);
+}
+
+/* Career page - make containers clickable */
+.rt-awards-block {
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+}
+
+.rt-awards-block:hover {
+  text-decoration: none;
+}
+
+/* Career page - arrow button orange color and transition to top on hover */
+.rt-awards-hover-arrow {
+  transition: all 0.5s ease;
+  transform: translateY(0);
+  background-color: transparent !important;
+  border-color: rgb(218, 218, 218) !important;
+}
+
+.rt-awards-block:hover .rt-awards-hover-arrow {
+  transform: translateY(-10px);
+  background-color: #ff6b35 !important;
+  border-color: #ff6b35 !important;
+}
+
+/* Career page - arrow icon points to the right on hover, shows white arrow */
+.rt-awards-block:hover .rt-scroll-icon {
+  opacity: 0 !important;
+  transition: opacity 0.5s ease;
+}
+
+.rt-awards-block:hover .rt-hover-in-arrow {
+  opacity: 1 !important;
+  transform: rotate(0deg) !important;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* Career page - normal arrow is black, hover arrow is white */
+.rt-scroll-icon {
+  opacity: 1 !important;
+  filter: brightness(0) !important;
+  transition: opacity 0.5s ease, filter 0.5s ease;
+}
+
+.rt-hover-in-arrow {
+  opacity: 0 !important;
+  transition: opacity 0.5s ease;
+}
+
+/* Career page - available projects section styling */
+#available-projects .rt-component-container {
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+  display: block;
+  background-color: var(--radiant-ui-components-library--color--white, #e7e7e9);
+  color: var(--radiant-ui-components-library--color--body-font-dark, #6d6d6d);
+  width: 100%;
+  padding: 80px 15px 0;
+  font-family: Outfit;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 29px;
+  position: relative;
+  border-radius: 10px;
+  margin-top: -75px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Blog post pages - "All Blog Posts" arrow hover transition - moves left on hover, returns on mouse out */
+.uui-button-link {
+  transition: all 0.3s ease;
+}
+
+.uui-button-link .uui-button-icon {
+  transition: transform 0.3s ease;
+  display: inline-block;
+  transform: translateX(0);
+}
+
+.uui-button-link:hover .uui-button-icon {
+  transform: translateX(-5px);
+}
+
+/* Testimonial section - arrow buttons dark mode: black circular container with white arrow */
+html.dark-mode .rt-left-arrow-two,
+html.dark-mode .rt-right-arrow-two,
+html.dark-mode .brix---btn-slider-arrow-left---testimonial-v6,
+html.dark-mode .brix---btn-slider-arrow-right---testimonial-v6 {
+  background-color: #000000 !important;
+  border: 1px solid #ffffff !important;
+  border-radius: 50% !important;
+  isolation: isolate;
+  filter: none !important;
+  width: 48px !important;
+  height: 48px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* Testimonial arrow images - white in dark mode */
+html.dark-mode .rt-left-arrow-two img,
+html.dark-mode .rt-right-arrow-two img,
+html.dark-mode .rt-home-three-testimonials-arrow img,
+html.dark-mode .brix---btn-slider-arrow-left---testimonial-v6 img,
+html.dark-mode .brix---btn-slider-arrow-right---testimonial-v6 img {
+  filter: brightness(0) invert(1) !important;
+  isolation: isolate;
+}
+
+/* Ensure arrow wrapper divs don't interfere */
+html.dark-mode .rt-home-three-testimonials-arrow {
+  filter: none !important;
+  isolation: isolate;
+}
+
+/* Blog page - blog post titles styling */
+.featured-card h4.font-black {
+  -webkit-text-size-adjust: 100%;
+  text-align: left;
+  box-sizing: border-box;
+  letter-spacing: -0.07vw;
+  text-transform: capitalize;
+  color: #050505;
+  margin-top: 0.9rem;
+  margin-bottom: 2.7rem;
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.9vw;
+}
+
+/* Contact page - "lets connect" text flip-in animation */
+[data-w-id="e170d4c2-1caa-bb4e-2443-6c157946b8f7"] {
+  animation: flip-in 0.8s ease-out forwards !important;
+  -webkit-animation: flip-in 0.8s ease-out forwards !important;
+  -moz-animation: flip-in 0.8s ease-out forwards !important;
+  animation-delay: 0.1s !important;
+  -webkit-animation-delay: 0.1s !important;
+  -moz-animation-delay: 0.1s !important;
+  animation-fill-mode: both !important;
+  -webkit-animation-fill-mode: both !important;
+  -moz-animation-fill-mode: both !important;
+  will-change: transform, opacity !important;
+  transform-origin: center center;
+  perspective: 1000px;
+}
+
+/* Contact page - form container slide from bottom to top */
+[data-w-id="7b541f0f-523b-05b2-7d99-485d6f5921ee"] {
+  animation: slide-bottom-to-top 1s ease-out forwards !important;
+  -webkit-animation: slide-bottom-to-top 1s ease-out forwards !important;
+  -moz-animation: slide-bottom-to-top 1s ease-out forwards !important;
+  animation-delay: 0.3s !important;
+  -webkit-animation-delay: 0.3s !important;
+  -moz-animation-delay: 0.3s !important;
+  animation-fill-mode: both !important;
+  -webkit-animation-fill-mode: both !important;
+  -moz-animation-fill-mode: both !important;
+  will-change: transform, opacity !important;
+}
+
+/* Contact page - image popup animation */
+[data-w-id="7b541f0f-523b-05b2-7d99-485d6f592218"] {
+  animation: popup-animation 1s ease-out forwards !important;
+  -webkit-animation: popup-animation 1s ease-out forwards !important;
+  -moz-animation: popup-animation 1s ease-out forwards !important;
+  animation-delay: 0.5s !important;
+  -webkit-animation-delay: 0.5s !important;
+  -moz-animation-delay: 0.5s !important;
+  animation-fill-mode: both !important;
+  -webkit-animation-fill-mode: both !important;
+  -moz-animation-fill-mode: both !important;
+  will-change: transform, opacity !important;
+}
+
+@keyframes popup-animation {
+  from {
+    transform: scale(0.8) translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes popup-animation {
+  from {
+    -webkit-transform: scale(0.8) translateY(20px);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes popup-animation {
+  from {
+    -moz-transform: scale(0.8) translateY(20px);
+    opacity: 0;
+  }
+  to {
+    -moz-transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+}
+
+
