@@ -29,33 +29,39 @@
 
 @keyframes slide-bottom-to-top {
   from {
-    transform: translate3d(0px, 100px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform: translate3d(0px, 100px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 0;
   }
   to {
-    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 1;
   }
 }
 
 @-webkit-keyframes slide-bottom-to-top {
   from {
-    -webkit-transform: translate3d(0px, 100px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -webkit-transform: translate3d(0px, 100px, 0px) scale3d(1, 1, 1)
+      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 0;
   }
   to {
-    -webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 1;
   }
 }
 
 @-moz-keyframes slide-bottom-to-top {
   from {
-    -moz-transform: translate3d(0px, 100px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -moz-transform: translate3d(0px, 100px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 0;
   }
   to {
-    -moz-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -moz-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 1;
   }
 }
@@ -88,7 +94,8 @@
 
 @-webkit-keyframes flip-in {
   from {
-    -webkit-transform: perspective(1000px) rotateY(-90deg) scale3d(0.8, 0.8, 0.8);
+    -webkit-transform: perspective(1000px) rotateY(-90deg)
+      scale3d(0.8, 0.8, 0.8);
     opacity: 0;
   }
   to {
@@ -129,33 +136,39 @@
 /* Slide from top to bottom animation */
 @keyframes slide-top-to-bottom {
   from {
-    transform: translate3d(0px, -100px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform: translate3d(0px, -100px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 0;
   }
   to {
-    transform: translate3d(0px, -40%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform: translate3d(0px, -40%, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 1;
   }
 }
 
 @-webkit-keyframes slide-top-to-bottom {
   from {
-    -webkit-transform: translate3d(0px, -100px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -webkit-transform: translate3d(0px, -100px, 0px) scale3d(1, 1, 1)
+      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 0;
   }
   to {
-    -webkit-transform: translate3d(0px, -40%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -webkit-transform: translate3d(0px, -40%, 0px) scale3d(1, 1, 1)
+      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 1;
   }
 }
 
 @-moz-keyframes slide-top-to-bottom {
   from {
-    -moz-transform: translate3d(0px, -100px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -moz-transform: translate3d(0px, -100px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 0;
   }
   to {
-    -moz-transform: translate3d(0px, -40%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -moz-transform: translate3d(0px, -40%, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 1;
   }
 }
@@ -163,33 +176,39 @@
 /* Slide from bottom to top animation */
 @keyframes slide-bottom-to-top-2 {
   from {
-    transform: translate3d(0px, 100px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform: translate3d(0px, 100px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 0;
   }
   to {
-    transform: translate3d(0px, 40%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform: translate3d(0px, 40%, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 1;
   }
 }
 
 @-webkit-keyframes slide-bottom-to-top-2 {
   from {
-    -webkit-transform: translate3d(0px, 100px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -webkit-transform: translate3d(0px, 100px, 0px) scale3d(1, 1, 1)
+      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 0;
   }
   to {
-    -webkit-transform: translate3d(0px, 40%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -webkit-transform: translate3d(0px, 40%, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 1;
   }
 }
 
 @-moz-keyframes slide-bottom-to-top-2 {
   from {
-    -moz-transform: translate3d(0px, 100px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -moz-transform: translate3d(0px, 100px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 0;
   }
   to {
-    -moz-transform: translate3d(0px, 40%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -moz-transform: translate3d(0px, 40%, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 1;
   }
 }
@@ -254,7 +273,8 @@
 
 /* About page text block - slide from bottom to top */
 .rt-home-two-about-text-wrapper .paragraph-7,
-.rt-home-two-about-text-wrapper [data-w-id="61b0a77f-a682-fc5e-d89a-a53da1db0d34"] {
+.rt-home-two-about-text-wrapper
+  [data-w-id="61b0a77f-a682-fc5e-d89a-a53da1db0d34"] {
   animation: slide-bottom-to-top 1s ease-out forwards !important;
   -webkit-animation: slide-bottom-to-top 1s ease-out forwards !important;
   -moz-animation: slide-bottom-to-top 1s ease-out forwards !important;
@@ -465,7 +485,8 @@ html.dark-mode .faq-icon {
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
 
-.rt-service-two-cta-2 .rt-text-white-6.rt-text-uppercase-2.rt-text-small-2.animate-in,
+.rt-service-two-cta-2
+  .rt-text-white-6.rt-text-uppercase-2.rt-text-small-2.animate-in,
 .rt-service-two-cta-2 .rt-text-white-6.rt-margin-bottom-twenty-4.animate-in,
 .rt-service-two-cta-2 .button-new.animate-in,
 .rt-service-two-cta-2 .rt-review-wrapper-2.animate-in {
@@ -500,7 +521,8 @@ html.dark-mode .faq-icon {
   transform-style: preserve-3d !important;
   -webkit-transform-style: preserve-3d !important;
   -moz-transform-style: preserve-3d !important;
-  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(-90deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(-90deg) rotateZ(0deg) skew(0deg, 0deg);
   opacity: 0;
   transition: none;
 }
@@ -513,33 +535,39 @@ html.dark-mode .faq-icon {
 
 @keyframes flip-left-to-right {
   from {
-    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(-90deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(-90deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 0;
   }
   to {
-    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 1;
   }
 }
 
 @-webkit-keyframes flip-left-to-right {
   from {
-    -webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(-90deg) rotateZ(0deg) skew(0deg, 0deg);
+    -webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(-90deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 0;
   }
   to {
-    -webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 1;
   }
 }
 
 @-moz-keyframes flip-left-to-right {
   from {
-    -moz-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(-90deg) rotateZ(0deg) skew(0deg, 0deg);
+    -moz-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(-90deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 0;
   }
   to {
-    -moz-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -moz-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 1;
   }
 }
@@ -583,28 +611,34 @@ html.dark-mode .faq-icon {
 
 @keyframes rotate-circle {
   from {
-    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
   }
   to {
-    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(360deg) skew(0deg, 0deg);
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(360deg) skew(0deg, 0deg);
   }
 }
 
 @-webkit-keyframes rotate-circle {
   from {
-    -webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
   }
   to {
-    -webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(360deg) skew(0deg, 0deg);
+    -webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(360deg) skew(0deg, 0deg);
   }
 }
 
 @-moz-keyframes rotate-circle {
   from {
-    -moz-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -moz-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
   }
   to {
-    -moz-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(360deg) skew(0deg, 0deg);
+    -moz-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(360deg) skew(0deg, 0deg);
   }
 }
 
@@ -653,33 +687,39 @@ html.dark-mode .faq-icon {
 
 @keyframes slide-from-right {
   from {
-    transform: translate3d(100vw, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform: translate3d(100vw, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 1;
   }
   to {
-    transform: translate3d(-176.906px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform: translate3d(-176.906px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 1;
   }
 }
 
 @-webkit-keyframes slide-from-right {
   from {
-    -webkit-transform: translate3d(100vw, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -webkit-transform: translate3d(100vw, 0px, 0px) scale3d(1, 1, 1)
+      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 1;
   }
   to {
-    -webkit-transform: translate3d(-176.906px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -webkit-transform: translate3d(-176.906px, 0px, 0px) scale3d(1, 1, 1)
+      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 1;
   }
 }
 
 @-moz-keyframes slide-from-right {
   from {
-    -moz-transform: translate3d(100vw, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -moz-transform: translate3d(100vw, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 1;
   }
   to {
-    -moz-transform: translate3d(-176.906px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -moz-transform: translate3d(-176.906px, 0px, 0px) scale3d(1, 1, 1)
+      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 1;
   }
 }
@@ -687,7 +727,8 @@ html.dark-mode .faq-icon {
 /* Services section animations - text and images */
 /* Initial hidden state for text on left side (Branding, Webdesign) */
 .card-flex.reverse-on-tab .large-card .card-text-block {
-  transform: translate3d(-100px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform: translate3d(-100px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
   opacity: 0;
   transition: none;
 }
@@ -705,7 +746,8 @@ html.dark-mode .faq-icon {
 /* Initial hidden state for text on right side (Marketing, Content) */
 .card-flex:not(.reverse-on-tab) .large-card .card-text-block,
 .card-flex .features-image-wrapper + .large-card .card-text-block {
-  transform: translate3d(100px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform: translate3d(100px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
   opacity: 0;
   transition: none;
 }
@@ -723,7 +765,8 @@ html.dark-mode .faq-icon {
 
 /* Initial hidden state for images */
 .features-image-wrapper {
-  transform: translate3d(0px, -100px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform: translate3d(0px, -100px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
   opacity: 0;
   transition: none;
 }
@@ -741,33 +784,39 @@ html.dark-mode .faq-icon {
 /* Text left to right animation */
 @keyframes slide-text-left-to-right {
   from {
-    transform: translate3d(-100px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform: translate3d(-100px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 0;
   }
   to {
-    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 1;
   }
 }
 
 @-webkit-keyframes slide-text-left-to-right {
   from {
-    -webkit-transform: translate3d(-100px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -webkit-transform: translate3d(-100px, 0px, 0px) scale3d(1, 1, 1)
+      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 0;
   }
   to {
-    -webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 1;
   }
 }
 
 @-moz-keyframes slide-text-left-to-right {
   from {
-    -moz-transform: translate3d(-100px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -moz-transform: translate3d(-100px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 0;
   }
   to {
-    -moz-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -moz-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 1;
   }
 }
@@ -775,33 +824,39 @@ html.dark-mode .faq-icon {
 /* Text right to left animation */
 @keyframes slide-text-right-to-left {
   from {
-    transform: translate3d(100px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform: translate3d(100px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 0;
   }
   to {
-    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 1;
   }
 }
 
 @-webkit-keyframes slide-text-right-to-left {
   from {
-    -webkit-transform: translate3d(100px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -webkit-transform: translate3d(100px, 0px, 0px) scale3d(1, 1, 1)
+      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 0;
   }
   to {
-    -webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 1;
   }
 }
 
 @-moz-keyframes slide-text-right-to-left {
   from {
-    -moz-transform: translate3d(100px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -moz-transform: translate3d(100px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 0;
   }
   to {
-    -moz-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -moz-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 1;
   }
 }
@@ -809,33 +864,39 @@ html.dark-mode .faq-icon {
 /* Image top to bottom animation */
 @keyframes slide-image-top-to-bottom {
   from {
-    transform: translate3d(0px, -100px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform: translate3d(0px, -100px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 0;
   }
   to {
-    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 1;
   }
 }
 
 @-webkit-keyframes slide-image-top-to-bottom {
   from {
-    -webkit-transform: translate3d(0px, -100px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -webkit-transform: translate3d(0px, -100px, 0px) scale3d(1, 1, 1)
+      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 0;
   }
   to {
-    -webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 1;
   }
 }
 
 @-moz-keyframes slide-image-top-to-bottom {
   from {
-    -moz-transform: translate3d(0px, -100px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -moz-transform: translate3d(0px, -100px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 0;
   }
   to {
-    -moz-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -moz-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     opacity: 1;
   }
 }
@@ -847,6 +908,7 @@ html.dark-mode {
 }
 
 /* Keep images non-inverted in dark mode */
+/* This applies to ALL images to re-invert them after page-level inversion */
 html.dark-mode img,
 html.dark-mode picture,
 html.dark-mode video,
@@ -854,6 +916,13 @@ html.dark-mode iframe,
 html.dark-mode canvas,
 html.dark-mode svg {
   filter: invert(1) hue-rotate(180deg);
+}
+
+/* Ensure blog images are definitely re-inverted - override with higher specificity */
+html.dark-mode .section.background-black._2 img,
+html.dark-mode .section.background-black._2 picture,
+html.dark-mode .section.background-black._2 video {
+  filter: invert(1) hue-rotate(180deg) !important;
 }
 
 /* Keep images non-inverted on hover */
@@ -871,15 +940,99 @@ html.dark-mode .rt-service-two-cta-background-2::after {
   filter: invert(1) hue-rotate(180deg) !important;
 }
 
+/* Blog page - dark background with images in original state */
+/* Page-level dark mode inverts everything, so blog section gets dark background automatically */
+/* We just need to re-invert text and keep images normal */
+html.dark-mode .section.background-black._2 {
+  isolation: isolate;
+}
+
+/* Blog section text/content - re-invert to be readable (white text on dark background) */
+html.dark-mode .section.background-black._2 h1,
+html.dark-mode .section.background-black._2 h2,
+html.dark-mode .section.background-black._2 h3,
+html.dark-mode .section.background-black._2 h4,
+html.dark-mode .section.background-black._2 h5,
+html.dark-mode .section.background-black._2 p,
+html.dark-mode .section.background-black._2 .featured-details-flex,
+html.dark-mode .section.background-black._2 .posts-block,
+html.dark-mode .section.background-black._2 .badge-post,
+html.dark-mode .section.background-black._2 .no-wrap,
+html.dark-mode .section.background-black._2 .font-black,
+html.dark-mode
+  .section.background-black._2
+  div:not(.image-wrapper-small):not(.featured-card):not(.posts-flex):not(
+    .w-dyn-item
+  ):not(.w-dyn-items) {
+  filter: invert(1) hue-rotate(180deg) !important;
+  isolation: isolate;
+}
+
+/* Blog image containers - create isolated stacking contexts */
+html.dark-mode .section.background-black._2 .featured-card,
+html.dark-mode .section.background-black._2 .image-wrapper-small,
+html.dark-mode .section.background-black._2 .posts-flex,
+html.dark-mode .section.background-black._2 .w-dyn-item,
+html.dark-mode .section.background-black._2 .w-dyn-items {
+  isolation: isolate;
+}
+
+html.dark-mode .featured-card {
+  isolation: isolate;
+}
+
+html.dark-mode .image-wrapper-small {
+  isolation: isolate;
+}
+
+/* Blog images - MUST re-invert to show in raw/original state */
+/* These selectors need to be very specific to override any other rules */
+html.dark-mode .section.background-black._2 img,
+html.dark-mode .section.background-black._2 .featured-card img,
+html.dark-mode .section.background-black._2 .image-wrapper-small img,
+html.dark-mode .section.background-black._2 .image-absolute,
+html.dark-mode .section.background-black._2 .posts-flex img,
+html.dark-mode .section.background-black._2 .w-dyn-item img,
+html.dark-mode .section.background-black._2 .w-dyn-items img,
+html.dark-mode .posts-flex img,
+html.dark-mode .featured-card img,
+html.dark-mode .image-absolute,
+html.dark-mode .w-dyn-item img,
+html.dark-mode .w-dyn-items img,
+html.dark-mode .image-wrapper-small img,
+html.dark-mode
+  .section.background-black._2
+  .featured-card
+  .image-wrapper-small
+  img,
+html.dark-mode .section.background-black._2 .w-dyn-item .featured-card img,
+html.dark-mode .section.background-black._2 .w-dyn-items .featured-card img {
+  filter: invert(1) hue-rotate(180deg) !important;
+  isolation: isolate !important;
+  transform: translateZ(0);
+  will-change: filter;
+}
+
+/* "Lets scale together!" and "We Create Impactful Campaigns That Convert" - black text in dark mode */
+html.dark-mode
+  .rt-service-two-cta-2
+  .rt-text-white-6.rt-text-uppercase-2.rt-text-small-2,
+html.dark-mode
+  .rt-service-two-cta-2
+  .rt-text-white-6.rt-margin-bottom-twenty-4 {
+  color: #000000 !important;
+}
+
 /* Keep footer looking the same in dark mode as in light mode */
 /* Re-invert the entire footer section to maintain black background and white text */
-html.dark-mode .section.background-black,
+/* Exclude blog section from background-black inversion */
+html.dark-mode .section.background-black:not(.section.background-black._2),
 html.dark-mode .section.background-black._23,
 html.dark-mode .footer-top,
 html.dark-mode .footer-block,
 html.dark-mode .footer-right-flex,
 html.dark-mode .footer-line,
-html.dark-mode .background-black {
+html.dark-mode .background-black:not(.section.background-black._2) {
   filter: invert(1) hue-rotate(180deg) !important;
 }
 
@@ -1156,11 +1309,31 @@ html.dark-mode .footer-bottom p {
 
 /* Ensure all footer text elements are visible in dark mode */
 /* Exclude logo and copyright as they're handled separately */
-html.dark-mode .section.background-black *:not(.footer-logo-link-wrapper):not(.footer-logo-link-wrapper *):not(.footer-bottom):not(.footer-bottom *),
-html.dark-mode .section.background-black._23 *:not(.footer-logo-link-wrapper):not(.footer-logo-link-wrapper *):not(.footer-bottom):not(.footer-bottom *),
-html.dark-mode .footer-top *:not(.footer-logo-link-wrapper):not(.footer-logo-link-wrapper *):not(.footer-bottom):not(.footer-bottom *),
-html.dark-mode .footer-block *:not(.footer-logo-link-wrapper):not(.footer-logo-link-wrapper *):not(.footer-bottom):not(.footer-bottom *),
-html.dark-mode .footer-right-flex *:not(.footer-logo-link-wrapper):not(.footer-logo-link-wrapper *):not(.footer-bottom):not(.footer-bottom *) {
+html.dark-mode
+  .section.background-black
+  *:not(.footer-logo-link-wrapper):not(.footer-logo-link-wrapper *):not(
+    .footer-bottom
+  ):not(.footer-bottom *),
+html.dark-mode
+  .section.background-black._23
+  *:not(.footer-logo-link-wrapper):not(.footer-logo-link-wrapper *):not(
+    .footer-bottom
+  ):not(.footer-bottom *),
+html.dark-mode
+  .footer-top
+  *:not(.footer-logo-link-wrapper):not(.footer-logo-link-wrapper *):not(
+    .footer-bottom
+  ):not(.footer-bottom *),
+html.dark-mode
+  .footer-block
+  *:not(.footer-logo-link-wrapper):not(.footer-logo-link-wrapper *):not(
+    .footer-bottom
+  ):not(.footer-bottom *),
+html.dark-mode
+  .footer-right-flex
+  *:not(.footer-logo-link-wrapper):not(.footer-logo-link-wrapper *):not(
+    .footer-bottom
+  ):not(.footer-bottom *) {
   filter: invert(1) hue-rotate(180deg) !important;
   color: #ffffff !important;
 }
@@ -1190,7 +1363,7 @@ html.dark-mode .footer-right-flex *:not(.footer-logo-link-wrapper):not(.footer-l
 }
 
 .dark-mode-toggle::before {
-  content: '🌙';
+  content: "🌙";
   font-size: 18px;
   line-height: 1;
   transition: transform 0.3s ease;
@@ -1202,7 +1375,7 @@ html.dark-mode .footer-right-flex *:not(.footer-logo-link-wrapper):not(.footer-l
 }
 
 html.dark-mode .dark-mode-toggle::before {
-  content: '☀️';
+  content: "☀️";
 }
 
 .dark-mode-toggle:hover {
@@ -1469,7 +1642,11 @@ html.dark-mode .rt-home-three-testimonials-arrow {
     transform: translate3d(0px, 0%, 0px);
   }
   40% {
-    transform: translate3d(0px, -45%, 0px); /* Reach last image - don't go off screen */
+    transform: translate3d(
+      0px,
+      -45%,
+      0px
+    ); /* Reach last image - don't go off screen */
   }
   42% {
     transform: translate3d(0px, -43%, 0px); /* Bounce back at last image */
@@ -1499,10 +1676,18 @@ html.dark-mode .rt-home-three-testimonials-arrow {
     -webkit-transform: translate3d(0px, 0%, 0px);
   }
   40% {
-    -webkit-transform: translate3d(0px, -45%, 0px); /* Reach last image - don't go off screen */
+    -webkit-transform: translate3d(
+      0px,
+      -45%,
+      0px
+    ); /* Reach last image - don't go off screen */
   }
   42% {
-    -webkit-transform: translate3d(0px, -43%, 0px); /* Bounce back at last image */
+    -webkit-transform: translate3d(
+      0px,
+      -43%,
+      0px
+    ); /* Bounce back at last image */
   }
   44% {
     -webkit-transform: translate3d(0px, -45%, 0px); /* Back to last image */
@@ -1514,7 +1699,11 @@ html.dark-mode .rt-home-three-testimonials-arrow {
     -webkit-transform: translate3d(0px, 0%, 0px); /* Return to start - slower */
   }
   90% {
-    -webkit-transform: translate3d(0px, -2%, 0px); /* Bounce back at start - slower */
+    -webkit-transform: translate3d(
+      0px,
+      -2%,
+      0px
+    ); /* Bounce back at start - slower */
   }
   94% {
     -webkit-transform: translate3d(0px, 0%, 0px); /* Back to start */
@@ -1529,7 +1718,11 @@ html.dark-mode .rt-home-three-testimonials-arrow {
     -moz-transform: translate3d(0px, 0%, 0px);
   }
   40% {
-    -moz-transform: translate3d(0px, -45%, 0px); /* Reach last image - don't go off screen */
+    -moz-transform: translate3d(
+      0px,
+      -45%,
+      0px
+    ); /* Reach last image - don't go off screen */
   }
   42% {
     -moz-transform: translate3d(0px, -43%, 0px); /* Bounce back at last image */
@@ -1544,7 +1737,11 @@ html.dark-mode .rt-home-three-testimonials-arrow {
     -moz-transform: translate3d(0px, 0%, 0px); /* Return to start - slower */
   }
   90% {
-    -moz-transform: translate3d(0px, -2%, 0px); /* Bounce back at start - slower */
+    -moz-transform: translate3d(
+      0px,
+      -2%,
+      0px
+    ); /* Bounce back at start - slower */
   }
   94% {
     -moz-transform: translate3d(0px, 0%, 0px); /* Back to start */
@@ -1559,7 +1756,11 @@ html.dark-mode .rt-home-three-testimonials-arrow {
     transform: translate3d(0px, 0%, 0px);
   }
   40% {
-    transform: translate3d(0px, 35%, 0px); /* Reach last image - don't go off screen (less for column-two) */
+    transform: translate3d(
+      0px,
+      35%,
+      0px
+    ); /* Reach last image - don't go off screen (less for column-two) */
   }
   42% {
     transform: translate3d(0px, 33%, 0px); /* Bounce back at last image */
@@ -1589,10 +1790,18 @@ html.dark-mode .rt-home-three-testimonials-arrow {
     -webkit-transform: translate3d(0px, 0%, 0px);
   }
   40% {
-    -webkit-transform: translate3d(0px, 35%, 0px); /* Reach last image - don't go off screen (less for column-two) */
+    -webkit-transform: translate3d(
+      0px,
+      35%,
+      0px
+    ); /* Reach last image - don't go off screen (less for column-two) */
   }
   42% {
-    -webkit-transform: translate3d(0px, 33%, 0px); /* Bounce back at last image */
+    -webkit-transform: translate3d(
+      0px,
+      33%,
+      0px
+    ); /* Bounce back at last image */
   }
   44% {
     -webkit-transform: translate3d(0px, 35%, 0px); /* Back to last image */
@@ -1604,7 +1813,11 @@ html.dark-mode .rt-home-three-testimonials-arrow {
     -webkit-transform: translate3d(0px, 0%, 0px); /* Return to start - slower */
   }
   90% {
-    -webkit-transform: translate3d(0px, 2%, 0px); /* Bounce back at start - slower */
+    -webkit-transform: translate3d(
+      0px,
+      2%,
+      0px
+    ); /* Bounce back at start - slower */
   }
   94% {
     -webkit-transform: translate3d(0px, 0%, 0px); /* Back to start */
@@ -1619,7 +1832,11 @@ html.dark-mode .rt-home-three-testimonials-arrow {
     -moz-transform: translate3d(0px, 0%, 0px);
   }
   40% {
-    -moz-transform: translate3d(0px, 35%, 0px); /* Reach last image - don't go off screen (less for column-two) */
+    -moz-transform: translate3d(
+      0px,
+      35%,
+      0px
+    ); /* Reach last image - don't go off screen (less for column-two) */
   }
   42% {
     -moz-transform: translate3d(0px, 33%, 0px); /* Bounce back at last image */
@@ -1634,7 +1851,11 @@ html.dark-mode .rt-home-three-testimonials-arrow {
     -moz-transform: translate3d(0px, 0%, 0px); /* Return to start - slower */
   }
   90% {
-    -moz-transform: translate3d(0px, 2%, 0px); /* Bounce back at start - slower */
+    -moz-transform: translate3d(
+      0px,
+      2%,
+      0px
+    ); /* Bounce back at start - slower */
   }
   94% {
     -moz-transform: translate3d(0px, 0%, 0px); /* Back to start */
@@ -1643,5 +1864,3 @@ html.dark-mode .rt-home-three-testimonials-arrow {
     -moz-transform: translate3d(0px, 0%, 0px); /* Hold at start */
   }
 }
-
-
