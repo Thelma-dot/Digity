@@ -250,29 +250,6 @@ document.addEventListener('DOMContentLoaded', function() {
         toggle.style.cursor = 'pointer';
     });
 
-    // Dark Mode Toggle Functionality
-    const darkModeToggle = document.querySelector('.dark-mode-toggle');
-    const html = document.documentElement;
-    
-    // Check for saved theme preference or default to light mode
-    const currentTheme = localStorage.getItem('theme') || 'light';
-    
-    // Apply saved theme on page load
-    if (currentTheme === 'dark') {
-        html.classList.add('dark-mode');
-    }
-    
-    // Toggle dark mode when button is clicked
-    if (darkModeToggle) {
-        darkModeToggle.addEventListener('click', function() {
-            html.classList.toggle('dark-mode');
-            
-            // Save theme preference
-            const theme = html.classList.contains('dark-mode') ? 'dark' : 'light';
-            localStorage.setItem('theme', theme);
-        });
-    }
-
     // Contact page - remove inline styles from "lets connect" text to allow flip animation
     const contactHeroTitle = document.querySelector('[data-w-id="e170d4c2-1caa-bb4e-2443-6c157946b8f7"]');
     if (contactHeroTitle) {
